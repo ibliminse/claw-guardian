@@ -29,7 +29,7 @@ And even when patches aren't the issue, updates can break things. A new version 
 
 ```bash
 # Manual install (recommended for now):
-git clone https://github.com/dogwiz/claw-guardian ~/.openclaw/hooks/claw-guardian
+git clone https://github.com/ibliminse/claw-guardian ~/.openclaw/hooks/claw-guardian
 openclaw hooks enable claw-guardian
 
 # Or, once published to npm:
