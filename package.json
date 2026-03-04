@@ -1,0 +1,38 @@
+{
+  "name": "claw-guardian",
+  "version": "0.1.0",
+  "description": "Patch survival + smoke tests on every OpenClaw gateway startup",
+  "keywords": [
+    "openclaw",
+    "hook",
+    "patch",
+    "smoke-test",
+    "devops",
+    "gateway",
+    "startup"
+  ],
+  "author": "DogWiz <@dogwiz>",
+  "license": "MIT",
+  "homepage": "https://github.com/dogwiz/claw-guardian",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dogwiz/claw-guardian.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dogwiz/claw-guardian/issues"
+  },
+  "openclaw": {
+    "hooks": [
+      "./"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "handler.js",
+    "HOOK.md",
+    "README.md",
+    "LICENSE"
+  ]
+}
